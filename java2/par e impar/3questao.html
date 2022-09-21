@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body >
+<script>
+ var alunos = [];
+        var contP = 0;
+        var contI = 0;
+
+        for (var i = 0; i < 100; i++) {
+            alunos.push(i + 1);
+            console.log(alunos[i]);
+            if (alunos[i] % 2 == 0) {
+                console.log("par");
+                contP = cont + 1;
+            }
+            else{
+                console.log("impar");
+                contI = contI + 1;
+            }
+        }
+
+        console.log("Total de par"+contP);
+        console.log("Total de Impar"+contI);
+
+</script>
